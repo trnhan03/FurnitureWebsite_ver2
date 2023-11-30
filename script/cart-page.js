@@ -63,4 +63,4 @@ function removeProduct(curr) {
     products=products.filter(product=>product.img!=curr.parentElement.parentElement.children[0].src);
     localStorage.setItem('products',JSON.stringify(products))
     getProducts();
-}
+} 

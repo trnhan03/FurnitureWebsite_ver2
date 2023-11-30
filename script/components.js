@@ -18,6 +18,13 @@ function addHeader() {
             <div class="button-cart">
                 <i class="button ti-shopping-cart" id = "cart" onclick="goTo('cart-page.html')"></i>
             </div>
+            <div class="button-user">
+                <i class="button ti-user" id = "user" ></i>
+                <ul class="vsubnav">
+                                <li><a href="profile-screen.html">profile</a></li>
+                                <li><a href="login-screen.html">login</a></li>
+                            </ul>
+            </div>
         </div>
     </header>
     `
